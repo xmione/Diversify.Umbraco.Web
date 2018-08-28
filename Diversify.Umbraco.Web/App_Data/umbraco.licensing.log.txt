@@ -1,0 +1,4 @@
+Could not find any UmbracoForms licensing files in C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin:
+Could not find any UmbracoForms licensing files in C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin:
+Could not find any UmbracoForms licensing files in C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin:
+Could not find any UmbracoForms licensing files in C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin:

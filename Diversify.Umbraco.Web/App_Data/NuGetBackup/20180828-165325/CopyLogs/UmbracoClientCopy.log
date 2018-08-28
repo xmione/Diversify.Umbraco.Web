@@ -1,0 +1,69 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Tuesday, 28 August 2018 4:58:00 PM
+   Source : C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\
+     Dest : C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\Umbraco_Client\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\
+	                   7	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Application\
+	                  12	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Application\JQuery\
+	                   3	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\CodeArea\
+	                   0	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\ContextMenu\
+	                   1	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\ContextMenu\Css\
+	                   1	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\ContextMenu\Js\
+	                   0	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Datepicker\
+	                   1	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Datepicker\Aqua\
+	                   3	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\DateTimePicker\
+	                   3	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\DateTimePicker\Images\
+	                  10	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Dialogs\
+	                   7	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Editors\
+	                   0	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\FileUploader\
+	                   1	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\FileUploader\Js\
+	                   0	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\FolderBrowser\
+	                   1	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\FolderBrowser\Css\
+	                   1	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\FolderBrowser\Js\
+	                   1	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Images\
+	                   1	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\MacroContainer\
+	                   1	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\MaskedInput\
+	                   1	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Menuicon\
+	                   3	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Menuicon\Images\
+	                   5	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Modal\
+	                   2	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Panel\
+	                   6	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Panel\Images\
+	                   2	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Preview\
+	                   2	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\ProgressBar\
+	                   3	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\ProgressBar\Images\
+	                   1	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Propertypane\
+	                   1	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Propertypane\Images\
+	                   1	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\PunyCode\
+	                   2	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Scrollingmenu\
+	                   3	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Splitbutton\
+	                   2	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Splitbutton\Images\
+	                   4	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Tablesorting\
+	                   3	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Tablesorting\img\
+	                   3	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Tabview\
+	                   7	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Tabview\Images\
+	                  10	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Tree\
+	                   0	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Tree\Themes\
+	                   4	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Tree\Themes\Default\
+	                  10	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Tree\Themes\Umbraco\
+	                  14	C:\Projects\Diversify.Umbraco.Web\packages\UmbracoCms.7.12.1\UmbracoFiles\Umbraco_Client\Ui\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        44         0        44         0         0         0
+   Files :       143         0       143         0         0         0
+   Bytes :    1.26 m         0    1.26 m         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Tuesday, 28 August 2018 4:58:00 PM
+
