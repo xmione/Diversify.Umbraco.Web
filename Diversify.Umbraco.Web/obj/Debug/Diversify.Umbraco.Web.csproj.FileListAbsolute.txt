@@ -126,4 +126,3 @@ C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\Umbraco.Web.UI.xml
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\UmbracoExamine.xml
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\obj\Debug\Diversify.Umbraco.Web.dll
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\obj\Debug\Diversify.Umbraco.Web.pdb
-C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\obj\Debug\Diversify.Umbraco.Web.csprojResolveAssemblyReference.cache

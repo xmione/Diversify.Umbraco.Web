@@ -1,0 +1,19 @@
+﻿{
+    "gridEditors": [
+        {
+            "name": "SolGridEditor",
+            "alias": "solgrideditor",
+            "view": "/app_plugins/SolGridEditor/SolGridEditor.html",
+			"render": "/app_plugins/SolGridEditor/SolGridEditor.cshtml",
+			"icon": "icon-code",
+            "config": {
+                "color": "red",
+                "text-align": "right"
+            }
+        }
+    ],
+    javascript:[
+        "/app_plugins/SolGridEditor/SolGridEditor.controller.js"
+    ]
+
+}
