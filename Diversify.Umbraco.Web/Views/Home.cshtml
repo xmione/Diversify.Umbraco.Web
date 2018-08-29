@@ -1,12 +1,10 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
 	Layout = "Master.cshtml";
-	//Model = Umbraco.Field("homeGrid");
+	
 }
 
 
-@*@Umbraco.Field("homeGrid")*@
-
 @CurrentPage.GetGridHtml("homeGrid")
 
-@* @Html.Partial("Grid/Bootstrap3-Fluid") *@
+
