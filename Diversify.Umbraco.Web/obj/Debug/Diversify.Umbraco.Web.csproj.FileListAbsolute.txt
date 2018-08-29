@@ -11,6 +11,7 @@ C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\roslyn\System.Reflec
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\roslyn\vbc.exe
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\roslyn\VBCSCompiler.exe
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\Diversify.Umbraco.Web.dll.config
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\Diversify.Umbraco.Web.dll
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\Diversify.Umbraco.Web.pdb
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\AutoMapper.dll
@@ -125,5 +126,4 @@ C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\Umbraco.Web.UI.xml
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\UmbracoExamine.xml
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\obj\Debug\Diversify.Umbraco.Web.dll
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\obj\Debug\Diversify.Umbraco.Web.pdb
-C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\Diversify.Umbraco.Web.dll.config
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\obj\Debug\Diversify.Umbraco.Web.csprojResolveAssemblyReference.cache
