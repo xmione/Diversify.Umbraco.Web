@@ -12,3 +12,15 @@ I’ve also added a master.css file that we can use to manipulate the style of t
 }
 
 That’s all folks.
+
+P.S.
+
+Here's the sample video I took documenting the whole thing:
+
+Part 1:
+
+http://www.screencast.com/t/PVTUWIX5
+
+Part2:
+
+http://www.screencast.com/t/F530knquw1
