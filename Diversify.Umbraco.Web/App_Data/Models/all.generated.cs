@@ -8,7 +8,7 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "84cddfbbc5c2f880")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "a37cae01fe2e84c5")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
@@ -107,6 +107,32 @@ namespace Umbraco.Web.PublishedContentModels
 		public Newtonsoft.Json.Linq.JToken ProfileGrid
 		{
 			get { return this.GetPropertyValue<Newtonsoft.Json.Linq.JToken>("profileGrid"); }
+		}
+	}
+
+	/// <summary>Root</summary>
+	[PublishedContentModel("root")]
+	public partial class Root : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "root";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Root(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Root, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
 	}
 

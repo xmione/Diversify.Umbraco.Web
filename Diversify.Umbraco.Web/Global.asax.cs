@@ -12,7 +12,7 @@ namespace Diversify.Umbraco.Web
 
         protected void Application_Start(object sender, EventArgs e)
         {
-
+            UrlRewrite.RewriteModule.Initialize();
         }
 
         protected void Session_Start(object sender, EventArgs e)

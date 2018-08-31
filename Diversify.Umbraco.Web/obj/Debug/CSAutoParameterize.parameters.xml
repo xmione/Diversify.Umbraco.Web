@@ -3,9 +3,6 @@
   <parameter name="umbracoDbDSN-Web.config Connection String" description="umbracoDbDSN Connection String used in web.config by the application to access the database." defaultValue="Data Source=|DataDirectory|\Umbraco.sdf;Flush Interval=1;" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Projects\\Diversify\.Umbraco\.Web\\Diversify\.Umbraco\.Web\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='umbracoDbDSN']/@connectionString" />
   </parameter>
-  <parameter name="DiversifyDB-Web.config Connection String" description="DiversifyDB Connection String used in web.config by the application to access the database." defaultValue="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|Diversify.mdf;Integrated Security=True;User Instance=True" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Projects\\Diversify\.Umbraco\.Web\\Diversify\.Umbraco\.Web\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DiversifyDB']/@connectionString" />
-  </parameter>
   <parameter name="DiversifyEntities-Web.config Connection String" description="DiversifyEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Model.DiversifyEDM.csdl|res://*/Model.DiversifyEDM.ssdl|res://*/Model.DiversifyEDM.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\Diversify.mdf;integrated security=True;connect timeout=30;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Projects\\Diversify\.Umbraco\.Web\\Diversify\.Umbraco\.Web\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DiversifyEntities']/@connectionString" />
   </parameter>

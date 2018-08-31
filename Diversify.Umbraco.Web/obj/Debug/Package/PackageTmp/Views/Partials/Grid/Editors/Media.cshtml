@@ -3,8 +3,12 @@
 
 @if (Model.value != null)
 {
-    var url = Request.Url.GetLeftPart(UriPartial.Authority) + HttpRuntime.AppDomainAppVirtualPath + Model.value.image;
-    if(Model.editor.config != null && Model.editor.config.size != null){
+    var url = ".." + Model.value.image;
+    //if (HttpRuntime.AppDomainAppVirtualPath == "/")
+    //{
+    //    url = Request.Url.Authority.ToString() + Model.value.image.ToString();
+    //}
+    if (Model.editor.config != null && Model.editor.config.size != null){
         url += "?width=" + Model.editor.config.size.width;
         url += "&height=" + Model.editor.config.size.height;
 
