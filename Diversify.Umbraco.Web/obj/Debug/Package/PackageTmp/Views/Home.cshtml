@@ -1,0 +1,12 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "Master.cshtml";
+	
+}
+
+
+@CurrentPage.GetGridHtml("homeGrid")
+
+@CurrentPage.GetGridHtml(Model.Content, "solGrid", "/app_plugins/SolGridEditor/SolGridEditor.cshtml" )
+
+

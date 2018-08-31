@@ -322,6 +322,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App_Plugins\SolGridEditor\SolGridEditor.cshtml" />
+    <Content Include="App_Data\Umbraco.sdf" />
     <Content Include="App_Plugins\SolGridEditor\SolGridEditor.html" />
     <Content Include="App_Plugins\SolGridEditor\SolGridEditor.controller.js" />
     <Content Include="App_Plugins\uSync\uSyncDashboard.css" />
@@ -347,8 +348,28 @@
     <Content Include="config\Lang\ru-RU.user.xml" />
     <Content Include="config\Lang\sv-SE.user.xml" />
     <Content Include="config\Lang\zh-CN.user.xml" />
+    <Content Include="css\header.css" />
+    <Content Include="css\master.css" />
+    <Content Include="css\umbraco-starterkit-style.css" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Media\1001\4730684907_8a7f8759cb_b.jpg" />
+    <Content Include="Media\1002\18095416144_44a566a5f4_h.jpg" />
+    <Content Include="Media\1003\18531852339_981b067419_h.jpg" />
+    <Content Include="Media\1004\18531854019_351c579559_h.jpg" />
+    <Content Include="Media\1005\18530280048_459b8b61b2_h.jpg" />
+    <Content Include="Media\1006\18720470241_ff77768544_h.jpg" />
+    <Content Include="Media\1010\5852022091_87c5d045ab_b.jpg" />
+    <Content Include="Media\1011\5852022211_9028df67c0_b.jpg" />
+    <Content Include="Media\1012\7371127652_e01b6ab56f_b.jpg" />
+    <Content Include="Media\1013\7373036208_30257976a0_b.jpg" />
+    <Content Include="Media\1014\7373036290_5e8420bf36_b.jpg" />
+    <Content Include="Media\1015\7377957524_347859faac_b.jpg" />
+    <Content Include="Media\1016\14272036539_469ca21d5c_h.jpg" />
+    <Content Include="Media\1030\16403439029_f500be349b_o.jpg" />
+    <Content Include="Media\1031\c-projects-diversifyumbracoweb-diversifyumbracoweb-media-images-polygon.png" />
+    <Content Include="Media\1031\c-projects-diversifyumbracoweb-diversifyumbracoweb-media-images-polygon_big-thumb.png" />
+    <Content Include="Media\1031\c-projects-diversifyumbracoweb-diversifyumbracoweb-media-images-polygon_thumb.png" />
     <Content Include="packages.config" />
     <Content Include="config\imageprocessor\security.config" />
     <Content Include="config\imageprocessor\processing.config" />
@@ -481,6 +502,10 @@
     <Content Include="Views\Partials\Grid\Bootstrap3-Fluid.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2-Fluid.cshtml" />
+    <Content Include="Views\Master.cshtml" />
+    <Content Include="Views\Profile.cshtml" />
+    <Content Include="Views\Partials\Navigation\SubNavigation.cshtml" />
+    <Content Include="Views\Partials\Navigation\TopNavigation.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -518,6 +543,9 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Model\Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

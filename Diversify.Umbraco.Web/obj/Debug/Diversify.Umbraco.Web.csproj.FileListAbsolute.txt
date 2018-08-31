@@ -26,6 +26,8 @@ C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\ICSharpCode.SharpZip
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\ImageProcessor.dll
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\ImageProcessor.Web.dll
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\interfaces.dll
+C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\Jumoo.uSync.BackOffice.dll
+C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\Jumoo.uSync.Core.dll
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\Log4Net.Async.dll
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\log4net.dll
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\Lucene.Net.dll
@@ -126,6 +128,3 @@ C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\Umbraco.Web.UI.xml
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\UmbracoExamine.xml
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\obj\Debug\Diversify.Umbraco.Web.dll
 C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\obj\Debug\Diversify.Umbraco.Web.pdb
-C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\obj\Debug\Diversify.Umbraco.Web.csprojResolveAssemblyReference.cache
-C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\Jumoo.uSync.BackOffice.dll
-C:\Projects\Diversify.Umbraco.Web\Diversify.Umbraco.Web\bin\Jumoo.uSync.Core.dll
