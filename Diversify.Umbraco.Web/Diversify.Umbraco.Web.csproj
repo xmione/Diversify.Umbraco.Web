@@ -381,7 +381,6 @@
     <Content Include="css\header.css" />
     <Content Include="css\master.css" />
     <Content Include="css\umbraco-starterkit-style.css" />
-    <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Media\1001\4730684907_8a7f8759cb_b.jpg" />
     <Content Include="Media\1002\18095416144_44a566a5f4_h.jpg" />
