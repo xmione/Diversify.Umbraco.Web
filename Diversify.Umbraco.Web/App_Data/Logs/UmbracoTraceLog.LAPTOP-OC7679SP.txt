@@ -6297,3 +6297,52 @@ System.MissingMethodException: Method 'Umbraco.Web.Models.DynamicPublishedConten
    at Umbraco.Core.Dynamics.DynamicInstanceHelper.TryInvokeMember[T](IRuntimeCacheProvider runtimeCache, T thisObject, InvokeMemberBinder binder, Object[] args, IEnumerable`1 findExtensionMethodsOnTypes)
  2018-09-01 12:45:40,718 [P8688/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
  2018-09-01 12:45:51,672 [P8688/D2/T11] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-08-31 12:45:51
+ 2018-09-01 12:47:39,965 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-09-01 12:47:39,966 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-09-01 12:47:39,981 [P8688/D2/T15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-09-01 12:47:40,005 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-09-01 12:47:40,006 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-09-01 12:47:40,007 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-09-01 12:47:40,007 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-09-01 12:47:40,007 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2018-09-01 12:47:40,007 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2018-09-01 12:47:40,008 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2018-09-01 12:47:40,008 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-09-01 12:47:40,008 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-09-01 12:47:40,008 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2018-09-01 12:47:40,009 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2018-09-01 12:47:40,018 [P8688/D2/T17] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-09-01 12:47:42,480 [P8688/D2/T18] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2018-09-01 12:47:42,481 [P8688/D2/T18] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-09-01 12:47:42,482 [P8688/D2/T18] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-09-01 12:47:42,483 [P8688/D2/T18] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-09-01 12:47:42,485 [P8688/D2/T17] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2018-09-01 12:47:42,536 [P8688/D2/T17] INFO  Umbraco.Web.ExamineStartup - Complete (took 51ms)
+ 2018-09-01 12:47:42,537 [P8688/D2/T17] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-09-01 12:47:42,537 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-09-01 12:47:42,538 [P8688/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-09-01 12:47:43,437 [P8688/D2/T15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-09-01 12:48:12,545 [P8688/D2/T17] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
